@@ -1,0 +1,12 @@
+
+server:
+  port: 8083
+spring:
+  application:
+    name: server-eureka3
+eureka:
+  client:
+    service-url:
+      defaultZone: http://www.111.com:8081/eureka,http://www.222.com:8082/eureka
+    register-with-eureka: false
+    fetch-registry: true

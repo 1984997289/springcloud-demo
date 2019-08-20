@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: server-eureka
+eureka:
+  client:
+    #Eureka 注册中心地址
+    service-url:
+      defaultZone: http://www.222.com:8082/eureka,http://www.333.com:8083/eureka
+    #是否注册到Eureka服务 默认true
+    register-with-eureka: false
+    #是否可以从Eureka抓取服务 默认true
+    fetch-registry: true
