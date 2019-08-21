@@ -8,7 +8,18 @@
         <option value="$PROJECT_DIR$/springcloud-provider/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-eureka2/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-eureka3/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-ribbon-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-feign-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-hystrix-dashborad/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/springcloud-base/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-basic/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

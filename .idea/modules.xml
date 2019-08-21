@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud-basic/springcloud-basic.iml" filepath="$PROJECT_DIR$/springcloud-basic/springcloud-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-consumer/springcloud-consumer.iml" filepath="$PROJECT_DIR$/springcloud-consumer/springcloud-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-consumer-feign-hystrix/springcloud-consumer-feign-hystrix.iml" filepath="$PROJECT_DIR$/springcloud-consumer-feign-hystrix/springcloud-consumer-feign-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-consumer-ribbon-hystrix/springcloud-consumer-ribbon-hystrix.iml" filepath="$PROJECT_DIR$/springcloud-consumer-ribbon-hystrix/springcloud-consumer-ribbon-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-demo.iml" filepath="$PROJECT_DIR$/springcloud-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka/springcloud-eureka.iml" filepath="$PROJECT_DIR$/springcloud-eureka/springcloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka2/springcloud-eureka2.iml" filepath="$PROJECT_DIR$/springcloud-eureka2/springcloud-eureka2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka3/springcloud-eureka3.iml" filepath="$PROJECT_DIR$/springcloud-eureka3/springcloud-eureka3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-feign/springcloud-feign.iml" filepath="$PROJECT_DIR$/springcloud-feign/springcloud-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-hystrix-dashborad/springcloud-hystrix-dashborad.iml" filepath="$PROJECT_DIR$/springcloud-hystrix-dashborad/springcloud-hystrix-dashborad.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-provider/springcloud-provider.iml" filepath="$PROJECT_DIR$/springcloud-provider/springcloud-provider.iml" />
     </modules>
   </component>
