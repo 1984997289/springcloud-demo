@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class UserServiceImpl implements IUserService{
-    @Override
+
     public String eg (String aa){
         return "系统正在维修...稍后再试！";
     }

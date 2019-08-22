@@ -14,5 +14,5 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public interface IUserService{
 
     @RequestMapping("user/e.g./{aa}")
-    String eg(@PathVariable(name="aa") String aa);
+    String eg (@PathVariable(name="aa") String aa);
 }

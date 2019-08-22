@@ -19,7 +19,7 @@ public class ConsumerController{
 
     @RequestMapping("name/{name}")
     public String getName(@PathVariable(name = "name") String name){
-        String result=restTemplate.getForObject("http://PROVIDER-EUREKA/user/e.g./18",String.class);
+        String result=restTemplate.getForObject("http://PROVIDER-EUREKA/user/e.g./18"+name,String.class);
         return result;
     }
 }

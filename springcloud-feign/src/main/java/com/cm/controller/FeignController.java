@@ -1,6 +1,6 @@
-/*
 package com.cm.controller;
 
+import com.cm.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -8,11 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
-*/
-/**
- * @author CaoMeng
- * @Date 2019-08-21
- *//*
 
 @RestController
 @RequestMapping("feign")
@@ -30,4 +25,3 @@ public class FeignController{
         return eg+"-->当前端口是-->"+port;
     }
 }
-*/

@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    config:
+      #config服务地址
+      uri: http://localhost:18888
+      #配置文件名字
+      name: application
+      #文件后缀
+      profile: default
+      #读取那一个分支
+      label: master
+server:
+  port: 19999
+#暴露健康监测里面的节点（bus-refresh,该节点是刷新配置文件）
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ['*']
+
